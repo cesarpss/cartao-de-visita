@@ -1,0 +1,81 @@
+body{
+    background-image: url(./imagens/backgorund.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: gamer;
+    src: url(./fonts/GAME\ ROBOT.otf);
+    font-weight: normal;
+}
+    
+@font-face {
+    font-family: gamer2;
+    src: url(./fonts/GAMERIA.ttf);
+    font-weight: normal;
+} 
+
+.titulo{
+
+    font-size: 55px;
+    margin-left: 75px; 
+    font-family: 'gamer',Helvetica, sans-serif;
+    
+} 
+
+ul{
+    margin-left: 50px;
+}
+ 
+
+li{
+
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 70%;
+    font-size: 25px;
+    font-family: 'gamer2',Helvetica, sans-serif;         
+    border: 5px solid blue;
+    border-radius: 10px;    
+    padding-bottom: 8px;    
+    padding-left: 5px;
+    color: black;
+    
+}
+
+.whats{
+
+    list-style-image: url(./imagens/whats2.png);
+    
+}
+
+.insta{
+
+    list-style-image: url(./imagens/insta2.png); 
+
+    }
+
+.face{
+
+    list-style-image: url(./imagens/face2.png);
+}
+
+.whats:hover{
+
+    background: rgba(4, 243, 56, 0.678);
+}
+
+.insta:hover{
+
+    background:rgba(220, 20, 70, 0.678);
+}
+
+.face:hover{
+
+    background: rgba(0, 0, 139, 0.678);
+}
+
+*{ 
+    text-decoration: none;
+}
