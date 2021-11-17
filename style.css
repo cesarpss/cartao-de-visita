@@ -2,7 +2,7 @@ body{
     background-image: url(./imagens/backgorund.png);
     background-repeat: no-repeat;
     background-size: cover;
-}
+    }
 
 @font-face {
     font-family: gamer;
@@ -25,29 +25,31 @@ body{
 } 
 
 ul{
-    margin-left: 50px;
-}
- 
+    margin-left: 90px;
+    
+} 
+
 
 li{
 
     margin-top: 25px;
     margin-left: 50px;
-    margin-right: 70%;
+    margin-right: 80%;
     font-size: 25px;
     font-family: 'gamer2',Helvetica, sans-serif;         
     border: 5px solid blue;
     border-radius: 10px;    
-    padding-bottom: 8px;    
-    padding-left: 5px;
-    color: black;
+    padding-bottom: 5px;    
+    box-sizing: border-box;
+    text-align: center;
     
 }
+
 
 .whats{
 
     list-style-image: url(./imagens/whats2.png);
-    
+        
 }
 
 .insta{
@@ -78,4 +80,5 @@ li{
 
 *{ 
     text-decoration: none;
+    color: black;
 }
